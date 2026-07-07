@@ -6,6 +6,6 @@ find . -name "project2.txt"
 
 chmod 755 script.sh
 tar -cvf project.tar.gz project/
-mkdir extracted
+mkdir extracted_project1
 tar -cvf project1.tar.gz -C  extracted_project1
 tree
