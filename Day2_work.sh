@@ -5,7 +5,7 @@ mv project1.txt project2.txt
 find . -name "project2.txt"
 
 chmod 755 script.sh
-tar -czvf project.tar.gz project/
+tar -cvf project.tar.gz project/
 mkdir extracted
-tar -czvf project.tar.gz extracted project
+tar -cvf project1.tar.gz -C  extracted_project1
 tree
